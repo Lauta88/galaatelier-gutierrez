@@ -7829,7 +7829,8 @@ section .titulo {
   section .titulo h1, section .titulo .h1 {
     text-align: center;
     color: #2c3927;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px; }
 
 section h2, section .h2 {
   font-size: 25px; }
@@ -7842,7 +7843,10 @@ section img {
 
 section .imagen {
   width: 100%;
-  border-radius: 2%; }
+  border-radius: 2%;
+  transition: transform 0.1s; }
+  section .imagen:hover {
+    transform: scale(1.2, 1.2); }
 
 section .btn-primary {
   color: #000;
